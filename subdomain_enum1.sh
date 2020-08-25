@@ -29,7 +29,7 @@ cat $1.txt >> $1/subs_findomain
 rm $1.txt
 
 echo "------------Shodan Enumeration-----------------------------------"
-~/shosubgo/shosubgo -d $1 -s TK5VkvBGBi8eA0l66n5l19q3aLKM0byg | tee $1/subs_shodan
+~/shosubgo/shosubgo -d $1 -s insert_token | tee $1/subs_shodan
 
 echo "----------Subfinder-----------------------------------"
 subfinder -d $1 -nW -o "$1/subs_subfind" -rL ~/dnsvalidator/resolvers.txt
@@ -51,6 +51,7 @@ echo ""
 echo "---------------Checking for subdomain-takeover--------------------------------------------------------------------"
 subjack -w $1/subdomain -t 100 -timeout 30 -ssl -c ~/subjack/fingerprints.json -v 3 | tee $1/takeover
 
-./brut_res2.sh $1
-./ip_ports3.sh $1
-./probe_endpoints4.sh $1
+#can add all the parts to make it continuos
+#./brut_res2.sh $1
+#./ip_ports3.sh $1
+#./probe_endpoints4.sh $1
