@@ -1,6 +1,5 @@
 echo "************************Subdmain Bruteforce and resolver ****************************************"
 
-#hi this is dhiraj
 shuffledns -d $1 -list $1/subdomain -r ~/dnsvalidator/resolvers.txt -o $1/resolve > /dev/null 2>&1
 cat $1/resolve | sort -u >> $1/resolve1
 cat $1/resolve1 > $1/resolve
