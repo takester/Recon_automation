@@ -1,0 +1,31 @@
+Please install python3 and python2
+Please install the go and set path variables
+1)go get -u github.com/tomnomnom/assetfinder
+2)https://github.com/Edu4rdSHL/findomain.git build it and move it to /usr/local/bin
+3)https://github.com/incogbyte/shosubgo.git
+4)git clone https://github.com/aboul3la/Sublist3r.git
+5)https://github.com/OWASP/Amass
+6)go get github.com/haccer/subjack
+7)https://github.com/projectdiscovery/shuffledns.git
+8)https://github.com/vortexau/dnsvalidator.git
+9)https://github.com/vortexau/dnsvalidator.git
+10)git clone https://github.com/infosec-au/altdns.git
+11)GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe
+12)https://github.com/robertdavidgraham/masscan
+13)GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
+14)go get -u github.com/tomnomnom/httprobe
+15)go get github.com/hakluke/hakrawler
+16)go get github.com/tomnomnom/waybackurls
+17)GO111MODULE=on go get -u -v github.com/lc/gau
+18)	GO111MODULE=on go get -u -v github.com/lc/subjs
+19)awk,sed,parallel
+20)git clone https://github.com/GerbenJavado/LinkFinder.git
+21)git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
+22)wget https://raw.githubusercontent.com/m4ll0k/Bug-Bounty-Toolz/master/jsbeautify.py
+23)wget https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/getjswords.py
+24)git clone https://github.com/gwen001/github-search.git
+25)apt install shodan
+26)https://github.com/michenriksen/aquatone
+27)wget https://github.com/tomnomnom/hacks/tree/master/kxss
+28)https://github.com/hahwul/dalfox
+29)git clone https://github.com/defparam/smuggler.git
